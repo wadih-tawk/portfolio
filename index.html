@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wadih Tawk - Personal Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+
+        <h1>Wadih Tawk</h1>
+        <p class="tagline">Software Engineering student at USJ</p>
+
+        <nav aria-label="Main" class="site-nav">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="hero" class="section">
+            <h2>I test web apps for security vulnerabilities</h2>
+            <img class="photo" src="images/cli-image.png" alt="Illustration of a terminal window showing a command prompt">
+            <p class="lead">
+                Fourth-year student at USJ, majoring in Software Engineering. I am passionate about cybersecurity.
+            </p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I started my journey by learning Python on my own. From there I moved into web development,
+                and that is where I discovered cybersecurity.
+            </p>
+            <p>
+                I am currently learning web application security and penetration testing. I have taken courses
+                with SemiColon Academy and HackTheBox, and I gained practical experience by taking part in CTFs
+                and bug bounty programs. I now work with Klev as a Software QA and web application penetration tester.
+            </p>
+            <h3>Currently Learning</h3>
+            <ul>
+                <li>QA with Klev</li>
+                <li>Web Programming</li>
+                <li>Web Application Security</li>
+                <li>Computer Architecture</li>
+                <li>Artificial Intelligence</li>
+                <li>Design Patterns</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <h3>Python</h3>
+                <p>Intermediate level. Comfortable reading and writing code.</p>
+                <h3>C++</h3>
+                <p>Intermediate level. Comfortable reading and writing code.</p>
+                <h3>Java</h3>
+                <p>Beginner. Currently learning it in the Design Patterns course.</p>
+                <h3>HTML and CSS</h3>
+                <p>Currently learning it in the Web Programming course.</p>
+                <h3>Web App Security</h3>
+                <p>Practiced through CTFs and bug bounty programs.</p>
+                <h3>Linux</h3>
+                <p>Comfortable using Linux and working in the command line.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>You can reach me by email:
+                <a href="mailto:wadihtawk443@gmail.com">wadihtawk443@gmail.com</a>
+            </p>
+            <form class="contact-form" action="#" method="post">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button class="button" type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Wadih Tawk. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
